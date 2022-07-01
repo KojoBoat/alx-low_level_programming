@@ -3,7 +3,7 @@
 /**
  * main - entry point
  *
- * Description - print all single base 10
+ * Description - print numbers separated by comma
  * Return: Always 0 (Successful)
  */
 int main(void)
@@ -13,6 +13,11 @@ int main(void)
 	for (i = 48; i < 58; i++)
 	{
 		putchar(i);
+		if (i != 57)
+		{
+			putchar(',');
+			putchar(' ');
+		}
 	}
 	putchar('\n');
 	return (0);
