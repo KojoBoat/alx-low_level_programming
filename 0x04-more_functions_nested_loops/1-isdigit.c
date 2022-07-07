@@ -6,6 +6,7 @@
  *
  * Return: 1 if true or 0 if false
  */
+
 int _isdigit(int n)
 {
 	if (n >= 48 && n <= 58)
