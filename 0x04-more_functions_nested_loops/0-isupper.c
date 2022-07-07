@@ -2,7 +2,7 @@
 
 /**
  * _isupper - function to check if arg is upper
- * @n: parameter passed to the function
+ * @c: parameter passed to the function
  *
  * Return: 1 if true or 0 if false
  */
