@@ -1,5 +1,5 @@
-#ifndef DOG_H
-#define DOG_H
+#ifndef DOG
+#define DOG
 
 /**
  * struct dog - struct of type dog
@@ -7,11 +7,12 @@
  * @owner: property
  * @age: property
  */
-typedef struct dog
+struct dog
 {
 	char *name;
-	char *owner;
 	float age;
-} dog;
+	char *owner;
+};
 
+void init_dog(struct dog *d, char *name, float age, char *owner);
 #endif
