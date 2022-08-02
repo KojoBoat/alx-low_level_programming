@@ -2,10 +2,12 @@
 #define DOG
 
 /**
- * struct dog - struct of type dog
- * @name: property
- * @owner: property
- * @age: property
+ * struct dog - struct dog
+ * @name: name of the dog
+ * @age: age of the dog
+ * @owner: owner of the dog
+ *
+ * Description: struct with params
  */
 struct dog
 {
